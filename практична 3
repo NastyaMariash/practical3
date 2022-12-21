@@ -3,13 +3,13 @@ a = list(input("Enter surname: "))
 for s in a:
   if s.lower() == "a":
     print("""
-         #
-        # #
-       #   #
-      #     #
-     #########
-    #         #
-   #           #
+      #
+     # #
+    #   #
+   #     #
+  #########
+ #         #
+#           #
 """)
   if s.lower() == "b":
     print("""
@@ -91,7 +91,7 @@ for s in a:
  #
  #
  #
- ####
+ #
 """)
   if s.lower() == "j":
     print("""
@@ -162,7 +162,7 @@ for s in a:
 #
 #
 #
-""", 
+""") 
   if s.lower() == "q":
     print("""
  ###
@@ -253,6 +253,5 @@ for s in a:
  # 
 # # # #
 """)
-} 
 
 
